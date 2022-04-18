@@ -1,0 +1,48 @@
+R	1000 800
+A	0.5						255,255,255
+c	0,2,0		0,0,-1		80
+
+l   0,15,0			0.2 	255,255,255
+
+# floor
+pl	0,0,0		0,1,0	  255,255,255
+
+# left
+sq	-2,2,0	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	-2,2,-2	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	-2,2,-6	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	-2,2,-10	1,0,0	4  255,255,255 res/floor_marble.png
+
+# right
+sq	2,2,0	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	2,2,-2	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	2,2,-6	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	2,2,-10	    1,0,0	4  255,255,255 res/floor_marble.png
+
+# left - front
+sq	-10,2,-14	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	-10,2,-18	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	-10,2,-22	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	-10,2,-26	    1,0,0	4  255,255,255 res/floor_marble.png
+
+# right - front
+sq	10,2,-14	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	10,2,-18	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	10,2,-22	    1,0,0	4  255,255,255 res/floor_marble.png
+sq	10,2,-26	    1,0,0	4  255,255,255 res/floor_marble.png
+
+# front
+sq	-8,2,-28	0,0,1	4  255,255,255 res/floor_marble.png
+sq	-4,2,-28	0,0,1	4  255,255,255 res/floor_marble.png
+sq	0,2,-28	0,0,1	4  255,255,255 res/floor_marble.png
+sq	4,2,-28	0,0,1	4  255,255,255 res/floor_marble.png
+sq	8,2,-28	0,0,1	4  255,255,255 res/floor_marble.png
+
+# front
+sq	-8,2,-12	0,0,1	4  255,255,255 res/floor_marble.png
+sq	-4,2,-12	0,0,1	4  255,255,255 res/floor_marble.png
+sq	4,2,-12	0,0,1	4  255,255,255 res/floor_marble.png
+sq	8,2,-12	0,0,1	4  255,255,255 res/floor_marble.png
+
+# middle
+sp -8,2,-14		3	255,130,0 res/earthmap.png
