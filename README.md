@@ -70,8 +70,8 @@ you can change the default configuration in the [`Makefile`](https://github.com/
 | ---- | ------ | ------- | ----------- |
 | Resolution | `R <width> <height>` | `R 800 600` | Can only be declared once |
 | Ambient Light | `A <ratio> <r>,<g>,<b>` | `A 0.1 255,255,255` | Can only be declared once |
-| Camera | `c <x>,<y>,<z> <rx>,<ry>,<rz> <fov>` | `c 0,0,0 0,0,1 80` | |
-| Light | `l <x>,<y>,<z> <ratio> <r>,<g>,<b>` | `l 0,0,0 0.1 255,255,255` | |
+| Camera | `c <x>,<y>,<z> <dx>,<ry>,<rz> <fov>` | `c 0,0,0 0,0,1 80` | rx,ry,rz is normalized orientation vector |
+| Light | `l <x>,<y>,<z> <brightness> <r>,<g>,<b>` | `l 0,0,0 0.1 255,255,255` | |
 
 ### Objects
 
