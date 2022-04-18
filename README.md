@@ -2,6 +2,8 @@
 
 My mini ray tracer is a simple ray tracer that can be used to render simple scenes.
 
+[Source Code](https://github.com/Skyrich2000/BornToCode/tree/master/minirt)
+
 ## Features
 
 * Ray Tracing with Shaders
