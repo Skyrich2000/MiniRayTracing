@@ -7,6 +7,7 @@ This is a simple ray tracer that can be used to render simple scenes.
 ## Features
 
 * Ray Tracing with Shaders
+* Mulit-threaded Ray Tracing
 * Anti-aliasing
 * Textures (+ Checkerboard)
 * Phong Shading (+ Shadows)
